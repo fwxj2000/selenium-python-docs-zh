@@ -93,7 +93,7 @@ WebDriver 也提供一些有用的方法来取消选择已经选择的元素::
     select = Select(driver.find_element_by_id('id'))
     select.deselect_all()
 
-这将取消选择所以的OPTION。
+这将取消选择所有的OPTION。
 
 假设在一个案例中，我们需要列出所有已经选择的选项，Select类提供了方便的方法来实现这一点::
 
